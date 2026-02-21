@@ -1,4 +1,4 @@
-### Creates a new patient entity
+### POST request to create a new patient entity
 
 POST http://localhost:8080/patients
 Content-Type: application/json
