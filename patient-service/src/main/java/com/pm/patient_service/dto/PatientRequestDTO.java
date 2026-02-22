@@ -22,7 +22,7 @@ public class PatientRequestDTO {
     private String dateOfBirth;
 
     //registeredDate is part of the CreatePatientValidationGroup group
-    //because we want this validation on creating patient not updating.
+    //because we want this validation on creating patient not on updating.
     @NotBlank(groups = CreatePatientValidationGroup.class, message =
             "Registered date is required")
     private String registeredDate;
