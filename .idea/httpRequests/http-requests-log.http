@@ -1,0 +1,27 @@
+PUT http://localhost:8080/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 140
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+   "name": "John Doe Updated",
+   "email": "john.doe@example.com",
+   "address": "123 Karachi, Pakistan",
+   "dateOfBirth": "2005-07-23"
+}
+
+<> 2026-02-27T163257.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-27T163051.200.json
+
+###
+
