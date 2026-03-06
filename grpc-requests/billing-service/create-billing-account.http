@@ -1,0 +1,12 @@
+###
+
+### Endpoint: First service name specified in proto file
+### then rpc method we have to call
+### addressoftheserver/nameoftheservice/nameoftherpcmethod
+GRPC localhost:9091/BillingService/CreateBillingAccount
+
+{
+  "patientId": "2468",
+  "name": "Safwan Test",
+  "email": "safwan123@gmail.com"
+}

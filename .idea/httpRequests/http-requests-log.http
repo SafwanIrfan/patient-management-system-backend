@@ -1,4 +1,121 @@
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-06T160015.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-06T160011.200.json
+
+###
+
 PUT http://localhost:8080/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 140
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+   "name": "John Doe Updated",
+   "email": "john.doe@example.com",
+   "address": "123 Karachi, Pakistan",
+   "dateOfBirth": "2005-07-23"
+}
+
+<> 2026-03-06T160003.200.json
+
+###
+
+PUT http://localhost:8080/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+Content-Length: 140
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+   "name": "John Doe Updated",
+   "email": "john.doe@example.com",
+   "address": "123 Karachi, Pakistan",
+   "dateOfBirth": "2005-07-23"
+}
+
+<> 2026-03-06T155959.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-06T155953.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-06T153821.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-03T172311.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-03T171756.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-03T155415.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-03T155240.200.json
+
+###
+
+GET http://localhost:8080/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-03T154910.200.json
+
+###
+
+GRPC localhost:9091/BillingService/CreateBillingAccountGRPC localhost:9091/BillingService/CreateBillingAccountGRPC localhost:9091/BillingService/CreateBillingAccountGRPC localhost:9091/BillingService/CreateBillingAccountPUT http://localhost:8080/patients/123e4567-e89b-12d3-a456-426614174000
 Content-Type: application/json
 Content-Length: 140
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
