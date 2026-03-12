@@ -4,8 +4,8 @@ POST http://localhost:8080/patients
 Content-Type: application/json
 
 {
-   "name": "Safwan Irfan",
-   "email": "test@gmail.com",
+   "name": "Safwan Irfan With Billing Account",
+   "email": "safwan_billing_account@gmail.com",
    "address": "123 Karachi, Pakistan",
    "dateOfBirth": "2005-07-23",
    "registeredDate": "2024-11-28"

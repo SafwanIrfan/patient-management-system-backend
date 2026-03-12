@@ -1,4 +1,23 @@
-GET http://localhost:8080/patients
+POST http://localhost:8080/patients
+Content-Type: application/json
+Content-Length: 204
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+   "name": "Safwan Irfan With Billing Account",
+   "email": "safwan_billing_account@gmail.com",
+   "address": "123 Karachi, Pakistan",
+   "dateOfBirth": "2005-07-23",
+   "registeredDate": "2024-11-28"
+}
+
+<> 2026-03-12T151844.200.json
+
+###
+
+GRPC localhost:9091/BillingService/CreateBillingAccountGET http://localhost:8080/patients
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
