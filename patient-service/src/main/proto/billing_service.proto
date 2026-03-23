@@ -1,9 +1,13 @@
-/// This file describes how to interact with grpc server that
+/// This proto file describes how to interact with grpc server that
 /// runs in billing service
 
 syntax = "proto3";
 
+// this tells that add a maven plugin for generating separate
+// files instead of having all of the classes generated under
+// single parent class as it makes it harder to work with
 option java_multiple_files = true;
+
 option java_package = "billing";
 
 service BillingService {
