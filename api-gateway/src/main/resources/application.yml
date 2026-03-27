@@ -1,0 +1,26 @@
+server:
+  port: 8083
+
+spring:
+  cloud:
+    gateway:
+      routes:
+
+        ## REST-CLIENT -> http://localhost:8083/api/patients
+        ## API-GATEWAY -> http://patient-service:8080/patients (due to strip-prefix=1)
+        ## PATIENT SERVICE (SPRING BOOT APP) -> /patients -> Patients Array
+        - id: patient-service-route
+          uri: http://patient-service:8080
+          predicates:
+            - Path=/api/patients/**
+          filters:
+            - StripPrefix=1
+
+        ## REST-CLIENT -> http://localhost:8083/api-docs/patients
+        ## API-GATEWAY -> http://patient-service:8080/v3/api-docs
+        - id: api-docs-patient-route
+          uri: http://patient-service:8080
+          predicates:
+            - Path=/api-docs/patients
+          filters:
+            - RewritePath=/api-docs/patients,/v3/api-docs

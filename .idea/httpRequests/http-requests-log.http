@@ -1,3 +1,39 @@
+GET http://localhost:8083/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-27T154218.200.json
+
+###
+
+GET http://localhost:8083/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-27T152403.404.json
+
+###
+
+GET http://localhost:8083/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-27T152151.404.json
+
+###
+
+GET http://localhost:8083/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-27T152132.404.json
+
+###
+
 POST http://localhost:8080/patients
 Content-Type: application/json
 Content-Length: 182
