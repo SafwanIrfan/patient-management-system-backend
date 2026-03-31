@@ -3,15 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.54">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-4||-9223372036854775808|c|G
-4||10|c|G
-4||10|C|G
-4||10|T|G</Grants>
-      <IntrospectionStateNumber>756</IntrospectionStateNumber>
+      <IntrospectionStateNumber>760</IntrospectionStateNumber>
       <ServerVersion>18.2</ServerVersion>
       <StartupTime>1774767995</StartupTime>
       <TimeZones>true ACDT
@@ -707,7 +699,7 @@ true posixrules
 13293||10|C|G
 13293||-9223372036854775808|U|G
 13293||10|U|G</Grants>
-      <IntrospectionStateNumber>756</IntrospectionStateNumber>
+      <IntrospectionStateNumber>760</IntrospectionStateNumber>
       <ObjectId>16384</ObjectId>
       <OwnerName>admin_user</OwnerName>
     </database>
@@ -4228,14 +4220,82 @@ true posixrules
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <LastIntrospectionL1Xid>756</LastIntrospectionL1Xid>
-      <LastIntrospectionL2Xid>756</LastIntrospectionL2Xid>
-      <LastIntrospectionL3Xid>756</LastIntrospectionL3Xid>
+      <LastIntrospectionL1Xid>760</LastIntrospectionL1Xid>
+      <LastIntrospectionL2Xid>760</LastIntrospectionL2Xid>
+      <LastIntrospectionL3Xid>760</LastIntrospectionL3Xid>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2026-03-29.07:09:39</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-03-30.10:12:26</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>546</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
+    <table id="273" parent="272" name="users">
+      <DetailsLevel>2</DetailsLevel>
+      <ObjectId>16387</ObjectId>
+      <StateNumber>757</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>admin_user</OwnerName>
+    </table>
+    <column id="274" parent="273" name="id">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>757</StateNumber>
+      <StoredType>uuid|0s</StoredType>
+      <TypeId>2950</TypeId>
+    </column>
+    <column id="275" parent="273" name="email">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>757</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="276" parent="273" name="password">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>757</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="277" parent="273" name="role">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>759</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="278" parent="273" name="users_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16396</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>757</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="279" parent="273" name="users_email_key">
+      <ColNames>email</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16398</ObjectId>
+      <StateNumber>757</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="280" parent="273" name="users_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16397</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>757</StateNumber>
+      <UnderlyingIndexId>16396</UnderlyingIndexId>
+    </key>
+    <key id="281" parent="273" name="users_email_key">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16399</ObjectId>
+      <StateNumber>757</StateNumber>
+      <UnderlyingIndexId>16398</UnderlyingIndexId>
+    </key>
   </database-model>
 </dataSource>
