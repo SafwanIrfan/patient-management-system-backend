@@ -5,6 +5,14 @@ spring:
   cloud:
     gateway:
       routes:
+          ### http://localhost:8004/auth/login
+          ### API GATEWAY -> http://localhost:8004/login
+        - id: auth-service-route
+          uri: http://auth-service:8084
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=1
 
         ## REST-CLIENT -> http://localhost:8083/api/patients
         ## API-GATEWAY -> http://patient-service:8080/patients (due to strip-prefix=1)
