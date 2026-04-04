@@ -52,6 +52,6 @@ public class JwtValidationGatewayFilterFactory extends
                     .retrieve()
                     .toBodilessEntity()
                     .then(chain.filter(exchange));
-        }
+        };
     }
 }
