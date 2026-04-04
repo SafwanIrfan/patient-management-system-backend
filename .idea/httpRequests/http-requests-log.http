@@ -1,3 +1,80 @@
+GET http://localhost:8083/api/patients
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3NTMyODIxNiwiZXhwIjoxNzc1MzY0MjE2fQ.-tcyP9wlSUWl4fUddUvU0AHnGOYZIv-YOpKimb3pc7s
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-04-04T235457.200.json
+
+###
+
+GET http://localhost:8083/api/patients
+Authorization: Bearer ascasca2323452_=
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8083/api/patients
+Authorization: Bearer 233534534bsfssa=+
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-04-04T234617.500.json
+
+###
+
+GET http://localhost:8083/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:8083/api/patients
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3NTMyODIxNiwiZXhwIjoxNzc1MzY0MjE2fQ.-tcyP9wlSUWl4fUddUvU0AHnGOYZIv-YOpKimb3pc7s
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-04-04T234501.200.json
+
+###
+
+POST http://localhost:8083/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2026-04-04T234336.200.json
+
+###
+
+POST http://localhost:8083/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+<> 2026-04-04T234250.500.json
+
+###
+
 GET http://localhost:8083/auth/validate
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3NTExNzI1NCwiZXhwIjoxNzc1MTUzMjU0fQ.AnFj1q_9PrcD-sh35-9r3Lr_-rg2k8I-ABWNPcLOiNc}
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
