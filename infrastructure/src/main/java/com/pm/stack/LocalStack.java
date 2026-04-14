@@ -13,8 +13,9 @@ public class LocalStack extends Stack {
         this.vpc = createVpc();
     }
 
+    //Why create Vpc? It creates the routing and networks that are needed for
+    //internal services to work and communicate with each other
     private Vpc createVpc() {
-
         return Vpc.Builder.create(this, "PatientManagementVPC")
                 .vpcName("PatientManagementVPC")
                 .maxAzs(2)
